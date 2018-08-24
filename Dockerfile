@@ -10,7 +10,7 @@
 FROM debian:jessie
 MAINTAINER Alexander Turcic "alex@zeitgeist.se"
 
-ENV RELEASE_URL https://github.com/nabla-c0d3/sslyze/releases/download/release-0.11/sslyze-0_11-linux64.zip
+ENV RELEASE_URL https://github.com/nabla-c0d3/sslyze/releases/download/0.11.0/sslyze-0_11-linux64.zip
 ENV RELEASE_DIR /sslyze-0_11-linux64/sslyze
 
 # Compile sslyze
